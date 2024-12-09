@@ -4,4 +4,6 @@ to = "http://plantcarehub-001-site1.otempurl.com/:splat"
 status = 200
 
 [build]
-  publish = "build"  # Change "build" to your specific publish directory
+command = "npm run build"
+  publish = "build"  
+  base = "/"# Change "build" to your specific publish directory
